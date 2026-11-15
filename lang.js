@@ -15,7 +15,7 @@
       b.classList.toggle("on", b.dataset.l === l);
     });
     var t = document.querySelector("article[lang='" + l + "'] h1");
-    if (t) document.title = t.textContent + " · Minusplus";
+    if (t) document.title = t.textContent + " · Мой Бюджет";
   }
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("nav.langs button").forEach(function (b) {
